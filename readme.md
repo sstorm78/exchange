@@ -3,6 +3,8 @@
 This project demonstrates a simple Rest API with endpoints to log stock transactions and then return current stock values, queried by ticker symbol.
 It has swagger UI, so can be tested via a browser. There are three stocks prepopulated A, B, C. They can be queried with the /stocks endpoints.
 
+Like: https://localhost:44339/Stocks?symbols=A,C
+
 ## Structure
 
 **LondonExchange.Api**: The main API project with two controllers
