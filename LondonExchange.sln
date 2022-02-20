@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LondonExchange.Api", "src\LondonExchange.Api\LondonExchange.Api.csproj", "{F650F2B8-64A3-4A04-8C63-3D335A4BEC75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{093543DB-2BDC-47F0-AF19-6C14083F1223}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LondonExchange.Services", "src\LondonExchange.Services\LondonExchange.Services.csproj", "{74AAFF9F-177A-4809-903E-57A2BA18C935}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LondonExchange.Data", "src\LondonExchange.Data\LondonExchange.Data.csproj", "{ED003BB0-4018-415A-A762-B555A3A22AD8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LondonExchange.Models", "src\LondonExchange.Models\LondonExchange.Models.csproj", "{A2AA00F2-F62F-4369-8F29-7195CCB10FD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LondonExchange.Services.Tests", "tests\LondonExchange.Services.Tests\LondonExchange.Services.Tests.csproj", "{132E06C7-7996-44A4-8AA2-C3E995F42F80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LondonExchange.Api.Tests", "tests\LondonExchange.Api.Tests\LondonExchange.Api.Tests.csproj", "{64A05C93-D38C-48DD-B36B-160BF961340C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F650F2B8-64A3-4A04-8C63-3D335A4BEC75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F650F2B8-64A3-4A04-8C63-3D335A4BEC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F650F2B8-64A3-4A04-8C63-3D335A4BEC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F650F2B8-64A3-4A04-8C63-3D335A4BEC75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74AAFF9F-177A-4809-903E-57A2BA18C935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74AAFF9F-177A-4809-903E-57A2BA18C935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74AAFF9F-177A-4809-903E-57A2BA18C935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74AAFF9F-177A-4809-903E-57A2BA18C935}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED003BB0-4018-415A-A762-B555A3A22AD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED003BB0-4018-415A-A762-B555A3A22AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED003BB0-4018-415A-A762-B555A3A22AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED003BB0-4018-415A-A762-B555A3A22AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2AA00F2-F62F-4369-8F29-7195CCB10FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2AA00F2-F62F-4369-8F29-7195CCB10FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2AA00F2-F62F-4369-8F29-7195CCB10FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2AA00F2-F62F-4369-8F29-7195CCB10FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132E06C7-7996-44A4-8AA2-C3E995F42F80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132E06C7-7996-44A4-8AA2-C3E995F42F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132E06C7-7996-44A4-8AA2-C3E995F42F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132E06C7-7996-44A4-8AA2-C3E995F42F80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A05C93-D38C-48DD-B36B-160BF961340C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A05C93-D38C-48DD-B36B-160BF961340C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A05C93-D38C-48DD-B36B-160BF961340C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A05C93-D38C-48DD-B36B-160BF961340C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{132E06C7-7996-44A4-8AA2-C3E995F42F80} = {093543DB-2BDC-47F0-AF19-6C14083F1223}
+		{64A05C93-D38C-48DD-B36B-160BF961340C} = {093543DB-2BDC-47F0-AF19-6C14083F1223}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D802EAD6-7CA0-45FD-8AA2-436F27337E87}
+	EndGlobalSection
+EndGlobal
